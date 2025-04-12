@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reward Earn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Welcome to RewardEarn</h1>
+    <p>Earn real rewards by completing simple tasks</p>
+    <button id="openRegister">Start Earning</button>
+  </header>
+
+  <!-- Registration Popup -->
+  <div id="registerPopup" class="popup hidden">
+    <h2>Register Now</h2>
+    <form action="submit_email.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="user_email" placeholder="Your Email" required>
+      <button type="submit">Register & Continue</button>
+    </form>
+    <button id="closeRegister">Close</button>
+  </div>
+
+  <!-- Features -->
+  <section class="features">
+    <h2>How It Works</h2>
+    <ul>
+      <li>Register with your email</li>
+      <li>Complete daily tasks</li>
+      <li>Earn points & get rewards</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 RewardEarn. All rights reserved.</p>
+  </footer>
+
+  <!-- JS Link (To Be Added Later) -->
+  <script src="main.js"></script>
+
+</body>
+</html>

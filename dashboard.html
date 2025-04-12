@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard | RewardSite</title>
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <div class="navbar">
+      <h1>RewardSite</h1>
+    </div>
+    <div class="welcome-box">
+      <h2>Welcome to your Dashboard!</h2>
+      <p>Thanks for registering. Start completing tasks to earn points!</p>
+    </div>
+
+    <div class="task-section">
+      <h3>Available Tasks</h3>
+      <div class="tasks">
+        <div class="task-card">
+          <h4>Watch a Video</h4>
+          <p>Earn 5 points</p>
+          <button id="watchVideoBtn">Start</button>
+        </div>
+        <div class="task-card">
+          <h4>Take a Survey</h4>
+          <p>Earn 10 points</p>
+          <button id="takeSurveyBtn">Start</button>
+        </div>
+        <div class="task-card">
+          <h4>Click Ad</h4>
+          <p>Earn 2 points</p>
+          <button id="clickAdBtn">Start</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 RewardSite. All rights reserved.</p>
+    </footer>
+  </div>
+  <h2 id="pointsDisplay" style="text-align:center; margin-top: 20px;color: green;"></h2>
+<script src="dashboard.js"></script>
+</body>
+</html>
